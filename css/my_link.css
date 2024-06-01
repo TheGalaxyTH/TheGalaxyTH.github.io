@@ -1,18 +1,19 @@
-.container{
+.container {
     margin-top: -2rem;
 }
 
-.cover-name-link{
-    text-decoration:none;
-    border-bottom:0px;
+.cover-name-link {
+    text-decoration: none;
+    border-bottom: 0px;
     text-align: center;
 }
-.cover-name a{
-    text-decoration:none;
+
+.cover-name a {
+    text-decoration: none;
     font-size: 18px;
 }
-.grid-site,
-{
+
+.grid-site {
     margin-left: auto;
     margin-right: auto;
     width: 100%
@@ -120,10 +121,12 @@
 
 
 @media (min-width: 1638px) {
+
     #content,
     #filter-crumbs {
         width: 1546px
     }
+
     .project-cover:nth-child(7n) {
         margin-right: 0
     }
@@ -132,10 +135,12 @@
 
 
 @media (min-width: 1414px) and (max-width: 2600px) {
+
     #content,
     #filter-crumbs {
         width: 1322px
     }
+
     .project-cover:nth-child(6n) {
         margin-right: 0
     }
@@ -143,10 +148,12 @@
 
 
 @media (min-width: 1190px) and (max-width: 1413px) {
+
     #content,
     #filter-crumbs {
         width: 1098px
     }
+
     .project-cover:nth-child(5n) {
         margin-right: 0
     }
@@ -154,20 +161,24 @@
 
 
 @media (min-width: 966px) and (max-width: 1189px) {
+
     #content,
     #filter-crumbs {
         width: 874px
     }
+
     .project-cover:nth-child(4n) {
         margin-right: 0
     }
 }
 
 @media (min-width: 742px) and (max-width: 965px) {
+
     #content,
     #filter-crumbs {
         width: 650px
     }
+
     .project-cover:nth-child(3n) {
         margin-right: 0
     }
@@ -177,10 +188,10 @@
 @media (min-width: 518px) and (max-width: 741px) {
 
     #content,
-    #filter-crumbs
-    {
+    #filter-crumbs {
         width: 426px
     }
+
     .project-cover:nth-child(2n) {
         margin-right: 0
     }
@@ -188,10 +199,12 @@
 
 
 @media (min-width: 604px) and (max-width: 1024px) {
+
     .grid-site,
     .project-view {
         max-width: none
     }
+
     .ie9 .basement-open-animate-in #top-panel {
         padding-left: 34.5161%
     }
@@ -207,20 +220,24 @@
         position: relative;
         width: 100%
     }
+
     .project-cover .cover-img,
     .project-cover .cover-info-stats {
         float: left
     }
+
     .project-cover .cover-img,
     .project-cover .cover-img-el {
         border-radius: 0;
         vertical-align: bottom
     }
+
     .project-cover .cover-img {
         height: auto;
         min-height: 100px;
         width: 45%
     }
+
     .project-cover .cover-info-stats {
         width: 55%
     }
@@ -229,24 +246,29 @@
         height: auto;
         width: 100%
     }
+
     .project-cover .cover-name {
         height: auto;
         margin-bottom: 0;
         max-height: 32px
     }
+
     .project-cover .cover-by,
     .project-cover .cover-name-link {
         color: #3c3c3c
     }
+
     .project-cover .cover-by-link {
         max-width: 80%;
         overflow: hidden;
         text-align: center;
     }
+
     .project-cover .cover-info {
         font-size: 12px;
         height: auto
     }
+
     #content-container,
     #filter-crumbs {
         padding: 0 15px
@@ -255,18 +277,20 @@
 
 @media (min-width: 300px) and (max-width: 517px) {
 
-    .cover-info-stats{
+    .cover-info-stats {
         text-align: center;
         margin-top: 40px;
     }
-    .cover-name a{
+
+    .cover-name a {
         font-size: 17px;
     }
-    .cover-info-stats.cover-by-link a{
+
+    .cover-info-stats.cover-by-link a {
         text-align: center;
     }
+
     .project-cover .cover-name {
         margin-bottom: 5px
     }
 }
-
